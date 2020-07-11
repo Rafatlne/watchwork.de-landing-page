@@ -35,7 +35,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
     color: #1e2022;
 }
 
@@ -43,10 +43,16 @@ h6 {
     background-color: var(--secondary-background-color-blue);
 }
 
-.img-fluid {
+.img-fluid-mw-half {
     max-width: 50%;
     height: auto;
 }
+
+.img-fluid-mw-full {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .logo {
     width: 150px;
